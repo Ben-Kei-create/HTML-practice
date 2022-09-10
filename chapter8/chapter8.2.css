@@ -1,0 +1,35 @@
+{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: #6c6b6b;
+  display: inline-block;
+  justify: center;
+}
+
+.List{
+line-height: 50px;
+width: 100%;
+height: 50px;
+}
+
+
+.list0 {
+  width: 960px;
+  height: 50px;
+  background-color: lightgrey;
+  margin-top: 50px;
+}
+
+
+.list1 {
+  width: 960px;
+  height: 50px;
+  background-color: lightgrey;
+}
+
+.list2 {
+  width: 960px;
+  height: 50px;
+
+}
