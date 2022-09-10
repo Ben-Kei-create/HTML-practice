@@ -1,0 +1,94 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 横幅いっぱい、高さ120px、背景色red */
+.header{
+  weight: 100%;
+  height: 120px;
+  background-color: red;
+}
+
+横幅いっぱい、高さ100px、背景色は上側をhotpink、下側をpinkで指定します。
+.header-top{
+  weight: 100%;
+  height: 70px;
+  background-color: hotpink;
+}
+
+.header-bottom{
+  weight: 100%;
+  height: 50px;
+  background-color: pink;
+}
+
+.main-visual{
+  width: 100%; /* 横幅いっぱい */
+  height: 300px; /* 高さ300px */
+  background-color: orange; /* 背景色orange */
+}
+
+/* 横幅を350pxに、高さは親要素（300px）にしてみましょう。背景色はgoldを指定 */
+.main-visual-content{
+  width: 350px;
+  height:300px;
+  background-color: gold;
+}
+
+/* 横幅いっぱい、高さ1400px、背景色green */
+.main{
+  width: 840px;
+  height:1400px;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.blog {
+  width: 600px; /* 横幅600px */
+  height: 1400px; /* 高さ600px */
+  background-color: limegreen; /* 背景色limegreen */
+}
+
+.sidebar {
+  width: 240px; /* 横幅240px */
+  height: 1400px; /* 高さ600px */
+  background-color: palegreen; /* 背景色palegreen */
+}
+
+
+
+
+
+.main{
+  width: 100%;
+  height: 1400px;
+  background-color: red;
+
+
+}
+
+.blog{
+  width: 960px;
+  height: 1400px;
+  background-color: blue;
+
+}
+
+.sidebar{
+  width: 500px;
+  height: 1400px;
+  background-color: limegreen;
+
+}
+
+/*  横幅いっぱい、高さ120px、背景色blue */
+.footer{
+  width: 100%;
+  height: 120px;
+  background-color: blue;
+}
