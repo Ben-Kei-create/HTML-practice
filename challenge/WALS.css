@@ -4,13 +4,20 @@
   padding: 0;
 }
 
-header {
+header{
   height: 70px;
   background-color: #EC715F;
+　padding：０　２％；
+　display:flex;  /*ロゴとulを横に並べる*/
+}
+
+ul{
+  display:flex;
+  list-style:none;
 }
 
 main {
-  width: 960px;
+  width: 960px;s
   margin: 50px auto;
   display: flex;
 }
@@ -21,14 +28,31 @@ main {
   height: 650px;
 }
 
+a {
+ color: #FAFAFA;
+ text-decoration: none;
+}
+
+
+.nav-list{
+ margin: 30px;
+ font-size: 16px;
+ font-color: white;
+}
+
 .mv-title{
+ padding-top: 200px;
  font-size: 64px;
  color: #FAFAFA;
+ text-align: center;
 }
 
 .mv-text{
+ margin-top: 200px;
+ margin-top: 10px;
  font-size: 20px;
  color: #FAFAFA;
+ text-align: center;
 }
 
 /*.step-box {*/
