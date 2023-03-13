@@ -8,11 +8,15 @@ header {
   position: relative;
   background-color: #EC715F;
   width: 100%;
+  height: 80px;
   text-align: center;
 }
 
 .logo {
-  height: 70px;
+  position: relative;
+  width: 9%;
+  height: 10%;
+  right: 230px;
 }
 
 a {
@@ -20,12 +24,12 @@ a {
 }
 
 .nav-list {
-  position: absolute;
-  top: 22px;
-  right: 22px;
-  display: inline-block;
+  bottom: 28px;
+  position: relative;
+left: 200px;
+display: inline-block;
   margin: 30px;
-  font-size: 16px;
+  font-size: 18px;
   font-color: white;
 }
 
@@ -67,7 +71,6 @@ main {
   height: 800px;
 }
 
-
 #profile {
   background-color: #ECEFF1;
   width: 100%;
@@ -103,10 +106,72 @@ a {
  text-align: center;
 }
 
+.heading{
+ padding-top: 90px;
+ font-size: 32px;
+ color: #000000;
+ text-align: center;
+}
+
 .mv-text{
  margin-top: 200px;
  margin-top: 10px;
  font-size: 20px;
  color: #FAFAFA;
  text-align: center;
+}
+
+.heading::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin: 8px auto 0 auto;
+    background-color: #EC715F;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+
+.heading-text {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+.production {
+    width: 300px;
+    height: 250px;
+    margin: 10px 10px 0 0;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.production bg-1 sp-none {
+    background-image: url(img/sketch.jpg);
+    height: 250px;
+}
+.bg1 {
+    background-image: url(img/webcamp-mother.jpg);
+    height: 250px;
+}
+.bg1 {
+    background-image: url(img/sketch.jpg);
+    height: 250px;
+}
+.bg1 {
+    background-image: url(img/sketch.jpg);
+    height: 250px;
+}
+.bg1 {
+    background-image: url(img/sketch.jpg);
+    height: 250px;
 }
