@@ -14,9 +14,9 @@ header {
 
 .logo {
   position: relative;
-  width: 9%;
+  width: 8%;
   height: 10%;
-  right: 230px;
+  right: 220px;
 }
 
 a {
@@ -143,35 +143,15 @@ a {
 }
 
 
-.production {
-    width: 300px;
-    height: 250px;
-    margin: 10px 10px 0 0;
-    background-size: cover;
-    background-position: center;
+.production-group {
     display: flex;
-    justify-content: center;
+    flex-flow: row wrap;
+    width: 920px;
+    padding: 30px 0 90px 0;
+    margin: 0 auto;
 }
 
+.bg-1 {
+  width: 300px; height: ***;
 
-
-.production bg-1 sp-none {
-    background-image: url(img/sketch.jpg);
-    height: 250px;
-}
-.bg1 {
-    background-image: url(img/webcamp-mother.jpg);
-    height: 250px;
-}
-.bg1 {
-    background-image: url(img/sketch.jpg);
-    height: 250px;
-}
-.bg1 {
-    background-image: url(img/sketch.jpg);
-    height: 250px;
-}
-.bg1 {
-    background-image: url(img/sketch.jpg);
-    height: 250px;
 }
