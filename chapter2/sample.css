@@ -1,14 +1,30 @@
+#menu {
+  color: red;
+　/*フォントを太字にする*/
+　font-weight:bold
+　border: double;
+}
+
+.img1{
+  height: 500px;
+  width: 1000px;
+}
+
+
 .box1{
   width: 300px;
   height: 300px;
-  background-color: green;
-  padding: 30px;
+  background-color: blue;
+  /*Boxの内側にある枠がpadding*/
+  padding: 10px;
 }
 
 .box2{
   width: 100px;
-  height: 100px;
+  height: 250px;
   background-color: blue;
-  border: 5px solid yellow;
+  /*Boxの外側の枠を作るためにあるのがmargin*/
+  margin: 15px;
+  border: 1px solid yellow;
 }
 
