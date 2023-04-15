@@ -9,13 +9,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
+    <header>
+      <div id="toc">
+        <div class="post-index">
+          <h2 class="post-index__title">目次</h2>
+            <ul class="post-index-list">
+              <li class="txt_l">
+                <a href="#1">1. プルダウン形式</a>
+              </li>
+              <li class="txt_l">
+                <a href="#2">2. リスト形式</a>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </header>
+
+  <script>
+    let select = document.querySelector('[name="selectmenu"]');
+      select.onchange = event => {
+        var adjust = 0;
+        var speed = 400;
+        var href = select.value;
+        var target = $(href == "#" || href == "" ? 'html' : href);
+        var position = target.offset().top + adjust;
+      $('body,html').animate({scrollTop:position}, speed, 'swing');
+      return false;
+    };
+  </script>
 
     <h1>Routienを紹介します。</h1>
       <h2>朝のRoutien</h2>
       <!--プルダウンのタグselect => option-->
-      <!---->
       <select name="selectmenu">
         <option value="#a1">朝起きる</option>
+        <option value="#a6" href="#title">一番下へ移動</option>
         <option value="#a2">例えばA2</option>
         <option value="#a3">例えばA3</option>
         <option value="#a4">例えばA4</option>
@@ -23,7 +51,7 @@
       </select>
 
         <select>
-          <option value="#">朝のルーティン一覧</option>
+          <option value="">朝のルーティン一覧</option>
           <option value="asa">朝起きる</option>
           <option value="bed">ベッドメイキング</option>
           <option value="huton">布団をたたむ</option>
@@ -42,9 +70,6 @@
           <li>ほうきをはく</li>
         </ul>
 
-<div class="#a2">
-<h2>朝起きる</2>
-</div>
 
 
 
@@ -55,13 +80,7 @@
 
 
 
-        <h2>もしさらに知りたい方はこちら</h2>
-    <form action="">
-      <select id="year" name="year" onChange="location.href='https://google.com?q='+value;">
-        <option value="朝活　ルーティン　一覧">朝活について知りたい！</option>
-        <option value="夜活　ルーティン　一覧">夜活について知りたい！</option>
-        <option value="2021">2021年</option>
-      </select
+
 
           <input type="radio">fgんれいjwsl</input>
 
@@ -70,17 +89,70 @@
     <a href= "https://note.com">note.com</a>
     <a href= "https://www.veed.io/">VEED.IO</a>
     <a href= "https://www.veed.io/">My Routine</a>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li>ホットでお湯を沸かす</li>
+          <li>コーヒーを入れる</li>
+          <li>トイレ掃除をする</li>
+          <li>歯を磨きながら、洗面台をふく</li>
+          <li>窓を開ける</li>
+          <li>ほうきをはく</li>
+          <li>筋トレをする</li>
+          <li>ほうきをはく</li>
+        </ul>        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li>ホットでお湯を沸かす</li>
+          <li>コーヒーを入れる</li>
+          <li>トイレ掃除をする</li>
+          <li>歯を磨きながら、洗面台をふく</li>
+          <li>窓を開ける</li>
+          <li>ほうきをはく</li>
+          <li>筋トレをする</li>
+          <li>ほうきをはく</li>
+        </ul>        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li>ホットでお湯を沸かす</li>
+          <li>コーヒーを入れる</li>
+          <li>トイレ掃除をする</li>
+          <li>歯を磨きながら、洗面台をふく</li>
+          <li>窓を開ける</li>
+          <li>ほうきをはく</li>
+          <li>筋トレをする</li>
+          <li>ほうきをはく</li>
+        </ul>
+<div value="#title">
+<h2>朝起きる</2>
+</div>
 
 
     <ul>箇条書き</ul>
-　　<img src="sample.png" alt="サンプル画像">
 
     <div class="box1">
     <div class="box2"></div>
     </div>
-<div class="#a2">
+<div class="a2">
 <h2>朝起きる</2>
 </div>
+
+
+
+        <h2>もしさらに知りたい方はこちら</h2>
+    <form action="">
+      <select id="year" name="year" onChange="location.href='https://google.com?q='+value;">
+        <option>⬇︎選択をしてください。</option>
+        <option value="朝活　ルーティン　一覧">朝活について知りたい！</option>
+        <option value="夜活　ルーティン　一覧">夜活について知りたい！</option>
+        <option value="2021">2021年</option>
+      </select>
+
+      <a value="1" name="1">タイトル</a>
+
   </body>
 </html>
 
