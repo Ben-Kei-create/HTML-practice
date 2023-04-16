@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="sample.css">
+    <title>練習用ページ</title>
+  </head>
+  <body>
+    hr...水平線<hr>
+    <h2>マーク付きのリスト</h2>
+    <ul>
+      <li>春の新規講座</li>
+      <li>夏の野外活動</li>
+    </ul>
+    <hr>
+    <h2>番号付きのリスト</h2>
+    &nbsp;（空白）&lt;ol&gt;番号つきのタグ
+    <ol>
+      <li>...番号付きタグ</li>
+      <li>春の新規講座</li>
+      <li>夏の野外活動</li>
+    </ol>
+    <hr>
+    shiftで選択してから、option + command で複製<br />
+    <table border="1">
+    <caption>春の新規講座</caption>
+      <tr>
+        <th>講座名</th>
+        <th>開催時間</th>
+        <th>授業料金</th>
+      </tr>
+      <tr>
+        <td>写真入門</td>
+        <td>開催時間</td>
+        <td>授業料金</td>
+      </tr>
+      <tr>
+        <td>油絵入門</td>
+        <td>開催時間</td>
+        <td>授業料金</td>
+      </tr>
+    </table>
+    <hr>
+    <table border="2">
+    <caption>夏の新規講座</caption>
+      <tr>
+        <th>講座名</th>
+        <th>開催時間</th>
+        <th>授業料金</th>
+      </tr>
+      <tr>
+      <!--rowspanのn数は、n列結合するか-->
+        <td rowspan="2">絵画入門</td>
+        <td>開催時間</td>
+        <td>授業料金</td>
+      </tr>
+      <tr>
+        <td>開催時間</td>
+        <td>授業料金</td>
+      </tr>
+    </table>
+    <hr />
+    <table border="3">
+    <caption>秋の新規講座</caption>
+      <tr>
+        <th colspan="3">講座名</th>
+      </tr>
+      <tr>
+        <td>写真入門</td>
+        <td>応用</td>
+        <td>発展</td>
+      </tr>
+      <tr>
+        <td>油絵入門</td>
+        <td>基礎基本</td>
+        <td>ベーシック</td>
+      </tr>
+    </table>
+<hr />
+<table border="5">
+<caption>施設ガイド</caption>
+  <tr>
+    <th rowspan="2">施設名</th>
+    <th>収容人数</th>
+    <th>設備</th>
+    <th>収容人数</th>
+    <th>設備</th>
+  </tr>
+  <tr>
+    <th colspan="3">収容人数</th>
+    <th rowspan="2">設備</th>
+  </tr>
+  <tr>
+    <th>施設名</th>
+    <th>収容人数</th>
+    <th>設備</th>
+    <th>収容人数</th>
+  </tr>
+</table>
+<hr>
+ <b>ヨーロッパの街角</b>
+<h5>画像の幅だけ150ピクセルに指定</h5>
+<img src="paris.jpg" width="340" height="202" border="5"></img>
+<hr />
+
+
+  </body>
+</html>
+
