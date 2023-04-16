@@ -2,7 +2,7 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="sample.css">
+    <link rel="stylesheet" href="study.css">
     <title>練習用ページ</title>
   </head>
   <body>
@@ -104,27 +104,36 @@
 <img src="paris.jpg" width="340" height="202" border="3"></img>
 <hr>
 <h3>ABC大学模擬授業申込フォーム</h3>
-氏名<capture>
-受付番号
+<form>
+氏　　名<input type="text" name="name"/><br />
+受付番号<input type="text" name="number"/><p>
 
-性別
-男女
+性別<br>
+<input type="radio" name="sex"/>男<br />
+<input type="radio" name="sex"/>女<p>
 
-希望する模擬授業科目
-経営学基礎　英会話演習　法学概論　コンピューター実習
+希望する模擬授業科目<br>
+<input type="checkbox" name="sex"/>経営学基礎<br />
+<input type="checkbox" name="sex"/>英会話演習<br />
+<input type="checkbox" name="sex"/>法学概論<br />
+<input type="checkbox" name="sex"/>コンピューター実習<br />
+</p>
 
-希望する学部
+希望する学部<br>
+<select size="1" name="gakubu"/>
+<option selected value="keiei">経営学部</option><br>
+<option selected value="hougaku">法学部</option><br>
+<option selected value="physics">物理学部</option><br>
+</select>
+<p>
 
-希望すること
-
-送信ボタン
-取消ボタン
-
-
-
-
-
+希望すること<br>
+<input type="textarea" cols="30" rows="30" name="kansou"/><p>
+<input type="submit" name="button" value="送信ボタン">
+<input type="reset" name="button" value="取消ボタン"><p>
+</form>
 <hr />
+
 <a href="#top">このページの先頭へ</a>
 <a href="sample.html">トップページへ移動</a>
   </body>
