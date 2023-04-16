@@ -1,0 +1,30 @@
+h1{
+  color: red;
+  font-family: 'Noto Serif JP', serif;}
+h2{
+  color: green;
+font-family: 'Noto Serif JP', serif;
+font-family: 'Tilt Prism', cursive;}
+h3{
+  color: blue;
+}
+h4{
+  color: purple;
+}
+h5{
+  color: orange;
+}
+.large{
+  font-size: 20px;
+}
+.large2{
+  font-size: 25px;
+}
+.torikeshi{
+  text-decoration: line-through;
+}
+.under{
+  text-decoration: underline;
+}
+
+
