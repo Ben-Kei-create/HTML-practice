@@ -6,7 +6,13 @@ body{
   /*width:100%;*/
   /*height:400px;*/
 }
-
+.table2{
+  text-align: center;
+  border-color: orange;
+  background-color: lightgreen;
+  border-style: dotted
+  font-color: #333333;
+}
 .explation{
   color: black;
   border:solid 5px;
