@@ -1,10 +1,52 @@
+body{
+  background-image: url("background.jpg")
+  /*background-repeat:  no-repeat;*/
+  /*background-position:center center;*/
+  /*background-size:contain;*/
+  /*width:100%;*/
+  /*height:400px;*/
+}
+
+.explation{
+  color: black;
+  border:solid 5px;
+  border-color: yellow;
+  background-image: url("background3.jpg");
+  border-style: outset;
+  padding: 10px;
+}
+.explation2{
+  color: black;
+  boder:solid 5px;
+  border-style: dashed;
+  border-radius: 15px;
+  border-color: yellow;
+  background-image: url("background3.jpg");
+  padding: 10px;
+}
+.explation3{
+  color: black;
+  boder:solid 5px;
+  border-style: dashed;
+  border-radius: 15px;
+  border-color: yellow;
+  box-shadow: 15px 15px 15px #333333;
+  background-image: url("background3.jpg");
+  padding: 10px;
+}
+.htmltitle{
+  font-family: 'PT Serif', serif;
+  color: yellow;
+}
 h1{
   color: red;
-  font-family: 'Noto Serif JP', serif;}
+  font-family: 'Noto Serif JP', serif;
+}
 h2{
   color: green;
-font-family: 'Noto Serif JP', serif;
-font-family: 'Tilt Prism', cursive;}
+  font-family: 'Noto Serif JP', serif;
+  font-family: 'Tilt Prism', cursive;
+}
 h3{
   color: blue;
 }
@@ -26,5 +68,10 @@ h5{
 .under{
   text-decoration: underline;
 }
-
+.background{
+  color: black;
+  background-color: lightgreen;
+  font-family: 'Noto Serif JP', serif;
+  font-family: 'Tilt Prism', cursive;
+}
 
