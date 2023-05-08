@@ -152,10 +152,156 @@ public class Exercise
 // int 型の変数 x、y に任意の数値を代入し、x の値を y に、y の値を x に入れ替えて x と y の値を表示するプログラムを作成しなさい。
 
 // ※ 	xとy以外に、もうひとつ変数が必要となる。
-// x = 3;
-// y = 7;
+x = 3;
+y = 7;
+// ここでxとyの値を入れ替える
+z = 7;
+System.out.println( "x=" + x + ",y=" + y );
 
-// // ここでxとyの値を入れ替える
+public class Exercise
+{
+    public static void main( String[] args )
+    {
+        int x, y, t;
 
-// System.out.println( "x=" + x + ",y=" + y );
+        x = 3;
+        y = 7;
+
+        t = x;
+        x = y;
+        y = t;
+
+        System.out.println( "x=" + x + ",y=" + y );
+    }
+}
+
+// 練習問題 1 - 8int 型の変数 x、y に数値 19、23 を代入し、その積を変数 z に代入して z の値を表示するプログラムを作成しなさい。
+
+public class excise
+{
+  public static void main(String[] args)
+  {
+    int x;
+    x = 19;
+    int y;
+    x = 23;
+    int z;
+    z = x*y;
+    System.out.println(z);
+  }
+}
+
+public class Exercise
+{
+    public static void main( String[] args )
+    {
+        int x, y, z;
+
+        x = 19;
+        y = 23;
+        z = x * y;
+
+        System.out.println( "z=" + z );
+    }
+}
+
+// 練習問題 1 - 9
+// int 型の変数 x に任意の数値を代入し、x を 2 倍、3 倍、4 倍した結果を表示するプログラムを作成しなさい。
+
+public class excise
+{
+  public static void main(String[] args)
+  {
+    int x = 5;
+    System.out.println("2x="+ x*2);
+    System.out.println("3x="+ x*3);
+    System.out.println("4x="+ x*4);
+  }
+}
+
+public class Exercise
+{
+    public static void main( String[] args )
+    {
+        int x = 12;
+
+        System.out.println( x * 2 );
+        System.out.println( x * 3 );
+        System.out.println( x * 4 );
+    }
+}
+
+// 練習問題 1 - 10
+// int 型の変数 x に任意の数値を代入し、x を 1 乗、2 乗、3 乗した結果を表示するプログラムを作成しなさい。
+
+public class excise
+{
+  public static void main(String[] args)
+  {
+    int x = 3;
+    System.out.println(x);
+    System.out.println(x*x);
+    System.out.println(x*x*x);
+  }
+}
+
+public class Exercise
+{
+    public static void main( String[] args )
+    {
+        int x = 3;
+
+        System.out.println( x );
+        System.out.println( x * x );
+        System.out.println( x * x * x );
+    }
+}
+
+// 練習問題 1 - 11
+// int 型の変数 x に任意の数値を代入し、x を x より小さい任意の数値で割った商と余りを表示するプログラムを作成しなさい。
+public class excise
+{
+  public static void main(String[] args)
+  {
+    int x = 13;
+    System.out.println( "商=" + (x / 3) + ",余り=" + (x % 3) );
+  }
+}
+
+public class Exercise
+{
+    public static void main( String[] args )
+    {
+        int x = 13;
+
+        System.out.println( "商=" + ( x / 5 ) + ", 余り=" + ( x % 5 ) );
+    }
+}
+
+// 練習問題 1 - 12
+// int 型の変数 x に任意の数値を代入し、
+// インクリメント演算子、デクリメント演算子を適用して結果を表示することにより演算子の効果を確認するプログラムを作成しなさい。
+
+public class excise
+{
+  public static void main(String[] args)
+  {
+    int x = 12;
+    
+  }
+}
+
+public class Exercise
+{
+    public static void main( String[] args )
+    {
+        int x = 10;
+
+        x++;
+        System.out.println( x );
+        x--;
+        x--;
+        System.out.println( x );
+    }
+}
 
