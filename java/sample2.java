@@ -128,3 +128,36 @@ public class sample2
 1〜10までの整数をカンマ区切りで横並びで表示させる
 (10にはカンマをつけない)
 
+public class main{
+  public static void main(String[] args){
+    int[] number = {1,2,3,4,5,6,7,8,9,10};
+      for(int i= 0; i<=8; i++){
+        System.out.println(number[i]+",");
+        System.out.println(number[9]);
+      }
+  }
+}
+public class main{
+  public static void main(String[] args){
+    int[] number = {"1"+"2"+"3"};
+    String connect = String.join(",", number);
+    System.out.println(connect);
+  }
+}
+
+要素数20の配列を宣言し、要素に0から5ずつ加算して代入させる。[0]~[10]の値の
+奇数のみカンマ区切りで、[11]~[19]の値は偶数をカンマ区切りで表示させる
+
+public class sample2{
+  public static void main(String[] args){
+    int[] number1 = {"0","1","2","3","4","5","6","7","8","9","10"};
+    int[] number2 = {"11","12","13","14","15","16","17","18","19"};
+
+    for(int i = 0; i){
+    System.out.printLn(number1[i]+0);
+    number1[0]+0
+    number1[0]+1
+    number1[0]+2
+    number1[0]+3
+    number1[0]+4
+    number1[0]+5
