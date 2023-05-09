@@ -287,7 +287,7 @@ public class excise
   public static void main(String[] args)
   {
     int x = 12;
-    
+
   }
 }
 
@@ -304,4 +304,30 @@ public class Exercise
         System.out.println( x );
     }
 }
+
+import java.io.*;
+
+public class Exercise
+{
+    public static void main( String[] args ) throws IOException
+    {
+        BufferedReader br = new BufferedReader(
+                                new InputStreamReader( System.in ) );
+
+        String  s = br.readLine();    // 1行分の文字列を入力する
+    }
+}
+
+BufferedReader br = new BufferedReader(
+                        new InputStreamReader( System.in ) );
+
+String  s = br.readLine();    // 1行分の文字列を入力する
+int     n = Integer.parseInt( s );    // 文字列から数値を得る
+
+BufferedReader br = new BufferedReader(
+                        new InputStreamReader( System.in ) );
+
+int n = Integer.parseInt( br.readLine() );
+
+// String 型の変数 s に文字列を入力し、s の値を表示するプログラムを作成しなさい。
 
