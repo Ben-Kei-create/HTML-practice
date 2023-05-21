@@ -161,3 +161,4 @@ public class sample2{
     number1[0]+3
     number1[0]+4
     number1[0]+5
+    
